@@ -1,0 +1,126 @@
+body,h1,h5 {
+	font-family: "Raleway", sans-serif;
+}
+
+body, html {
+	height: 100%;
+}
+
+.bgimg {
+	background: url('../images/bg.jpg') no-repeat center center fixed;
+	min-height: 100%;
+	background-size: cover;
+}
+
+#element {
+	font-weight: bolder;
+	text-shadow: 3px 3px 3px black;
+	-webkit-text-shadow: 3px 3px 3px black;
+	
+}
+
+.resume {
+	text-decoration: none;
+	font-size: 1.3em;
+	color: black;
+	text-shadow: 3px 3px 3px gray;
+	-webkit-text-shadow: 3px 3px 3px gray;
+	-moz-text-shadow: 3px 3px 3px gray;
+	-o-text-shadow: 3px 3px 3px gray;
+	-ms-text-shadow: 3px 3px 3px gray;
+	font-weight: bold;
+}
+
+.resume:hover {
+	color: red;
+	font-weight: bolder;
+}
+
+button.w3-button.w3-black {
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.5);
+}
+
+button.w3-button.w3-black:hover {
+	background-color: white !important;
+	font-weight: bold;
+	transition: all 0.7s ease-in-out;
+	-webkit-transition: all 0.7s ease-in-out;
+	-moz-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
+	-ms-transition: all 0.7s ease-in-out;
+	transform: rotateX(360deg);
+	-webkit-transform: rotateX(360deg);
+	-moz-transform: rotateX(360deg);
+	-o-transform: rotateX(360deg);
+	-ms-transform: rotateX(360deg);
+}
+
+.project {
+	width: 95%;
+}
+
+table[class="org"] {
+	margin: 20px;
+}
+
+table[class="org"] td {
+	padding: 10px;
+}
+
+
+a[class="viewProject"] {
+	color: blue;
+	
+	transition: all 0.5s ease-in-out;
+}
+
+a[class="viewProject"]:hover {
+	font-weight: bold;
+	font-size: 1.2em;
+	text-decoration: none;
+	
+}
+
+.social a {
+	margin-left: 20px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.logos {
+		width: 100%;
+	}
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.logos {
+		width: 100%;
+	}
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.logos {
+		width: 100%;
+	}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.logos {
+		width: 100%;
+	}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.logos {
+		width: 100%;
+	}
+}

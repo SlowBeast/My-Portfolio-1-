@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/w3.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+
+<div class="bgimg w3-display-container w3-text-white">
+  <div class="w3-display-middle w3-jumbo" style="width: 100%; text-align: center;">
+    <p id="element">Welcome To My Portfolio</p>
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('about').style.display='block'" class="w3-button w3-black"><i class="fa fa-user"></i> About Me</button></p>
+    <p><button onclick="document.getElementById('projects').style.display='block'" class="w3-button w3-black"><i class="fa fa-building"></i> Projects</button></p>
+    <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black"><a href="mailto:ahmad.younes.2005@gmail.com" style="text-decoration: none;"><i class="fa fa-envelope"></i> Contact Me</a></button></p>
+  </div>
+  <div class="w3-display-bottomleft w3-container">
+    <a href="https://www.linkedin.com/in/ahmad-al-ahmad-b54885149/" target="_blank"><i class="fa fa-linkedin" style="font-size: 2em"></i></a>
+    <p>&copy; 2018 || Ahmad Al-Ahmad </p>
+  </div>
+</div>
+
+<!-- About Modal -->
+<div id="about" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('about').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>About Me</h1>
+    </div>
+    <div class="w3-container">
+      <p>
+        Hello and welcome to my first official portfolio. My name is Ahmad Al-Ahmad and I am an IT technician and an Entry Level Front End Web Developer. I am a hard-working, quick-learner, and highly-motivated individual with excellent communication skills and more than 8 years experience in IT Desktop Support. I am able to work in a team or individually depending on the task. I am a sociable, friendly, organised and reliable person to work with and ambitious to learn about new technologies. In addition to my current role, I am pursuing my ambition to learn and gain professional qualifications in web design and web development. I gained the following certifications and I am working towards further qualifications: 
+      </p>
+
+      <table>
+        <tr>
+          <td><img src="images/comptia-c.png" alt="" class="logos" /></td>
+          <td><img src="images/htmlcss-c.png" alt="" class="logos" /></td>
+          <td><img src="images/html5app-c.png" alt="" class="logos" /></td>
+          <td><img src="images/javascript-c.png" alt="" class="logos" /></td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <h2 class="w3-container"><strong>Skills:</strong></h2>
+    <div class="w3-container">
+      <span>HTML/HTML5</span><br />
+      <progress value="50" max="100" style="width: 100%; height: 30px; border: 1px solid black"></progress>
+    </div>
+
+    <div class="w3-container">
+      <span>CSS / CSS3</span><br />
+      <progress value="45" max="100" style="width: 100%; height: 30px; border: 1px solid black"></progress>
+    </div>
+
+    <div class="w3-container">
+      <span>Bootstrap</span><br />
+      <progress value="40" max="100" style="width: 100%; height: 30px; border: 1px solid black"></progress>
+    </div>
+
+    <div class="w3-container">
+      <span>SASS</span><br />
+      <progress value="10" max="100" style="width: 100%; height: 30px; border: 1px solid black"></progress>
+    </div>
+    
+    <div class="w3-container">
+      <span>Javascript</span><br />
+      <progress value="20" max="100" style="width: 100%; height: 30px; border: 1px solid black"></progress>
+    </div>
+    <div class="w3-container">
+      <span>PHP/MySQL</span><br />
+      <progress value="15" max="100" style="width: 100%; height: 30px; border: 1px solid black"></progress>
+    </div>
+
+    <div class="w3-container">
+      <span>Adobe Dreamweaver</span><br />
+      <progress value="30" max="100" style="width: 100%; height: 30px; border: 1px solid black"></progress>
+    </div>
+
+    <div class="w3-container">
+      <span>Adobe Photoshop</span><br />
+      <progress value="5" max="100" style="width: 100%; height: 30px; border: 1px solid black"></progress>
+    </div>
+
+    <br />
+    <br />
+
+    
+    <a href="file/cv.pdf" class="w3-display-bottommiddle resume" download>Download C.V.</a> 
+
+  </div>
+</div>
+
+<!-- Projects Modal -->
+<div id="projects" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('projects').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Projects</h1>
+    </div>
+    <div class="w3-container" border>
+     <table class="org"> 
+       <tr>
+        <td>
+          <h3><strong><u>Bayeti:</u></strong></h3>
+          <p>
+            A responsive website which fits most screen types. This website is for a take away business for mediterranean food. I plan to improve the design to something more advanced soon; using different kinds of technologies, such as HTML5, CSS3, Javascript with jQuery and PHP with MySQL, as some glitches occured when uploading the website to a web hosting service. Although the contact form works. 
+          </p> 
+            <a href="http://www.bayeti.ml" target="_blank" class="viewProject">View Project</a>
+        </td>
+           <td><img src="images/project1.jpg" alt="" class="project" />
+        </td>
+       </tr>
+       <tr>        
+           <td><img src="images/project2.jpg" alt="" class="project" />
+        </td>
+        <td>
+          <h3><strong><u>HTML Email Signature:</u></strong></h3>
+          <p>
+            HTML Email Signature which I created for the school I am working with. This will be changed to a new design if the school asks for another design in the near future. The name of the school and other information related to it has been removed due to ensure anonymity.
+          </p>
+          <a href="email_sign/email_sign.html" target="_blank" class="viewProject">View Project</a>
+        </td>
+       </tr>
+     </table>
+    </div>
+    
+  </div>
+</div>
+
+
+
+<script type="text/javascript" src="js/typewriter.js"></script>
+
+</body>
+</html>
+
